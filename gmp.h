@@ -39,7 +39,7 @@ typedef struct mp_int {
     mp_size sz;
 } MP_INT;
 
-typedef mp_int mpz_t[1];
+typedef MP_INT mpz_t[1];
 
 #ifdef WINDOZE
 #define PROTO(x) x
